@@ -37,4 +37,4 @@ app.post("/mobile", async function (req, res) {
     res.send(result);
 })
 
-app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
+app.listen(PORT, () => console.log(`The server is listening in : ${PORT} ✨✨`));
